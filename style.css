@@ -1,0 +1,109 @@
+*{
+     box-sizing: border-box;
+}
+html{
+     width: 100%;
+}
+body{
+     height: 600px;
+     width: 100%;
+     margin: 0px;
+     background-color: rgb(116, 116, 116);
+     font-family:"Baskervville SC";
+}
+main{
+     margin: 0px 20px 0 20px;
+     font-family:"Baskervville SC";
+}
+header{
+     height: 150px;
+     width: 100%;
+     text-align: center;
+     background-color: maroon;
+     color: white;
+     padding: 10px;
+     font-family:"Baskervville SC";
+}
+h1{
+     text-align: center;
+     font-family:"Baskervville SC";
+     
+}
+h2{
+     text-align: center;
+     font-family:"Baskervville SC";
+}
+h3{
+     text-align: center;
+     font-family:"Baskervville SC";
+}
+h5{
+     text-align: center;
+     font-family:"Baskervville SC";
+}
+p{
+     font-family: sans;
+     font-style: italic;
+     font-size: 1rem;
+}
+li{
+     font-family: sans;
+     font-style: italic;
+     font-size: 1rem;
+}
+.navbar ul{
+     list-style-type: none;
+     background-color: hsl(0, 0%, 25%);
+     padding: 0px;
+     margin: 0px;
+     overflow: hidden;
+     font-family:"Baskervville SC";
+}
+.navbar a{
+     color: white;
+     text-decoration: none;
+     padding: 10px;
+     display: block;
+     text-align: center;
+     font-family:"Baskervville SC";
+}
+.navbar a:hover{
+     background-color:hsl(0, 0%, 10%);
+     font-family:"Baskervville SC";  
+}
+.navbar li{
+     float: left;
+     font-family:"Baskervville SC";
+}
+aside{
+     width: 20%;
+     float: left;
+     padding: 10px;
+     font-family:"Baskervville SC";
+}
+section{
+     width: 50%;
+     float: left;
+     padding: 10px;
+     font-family:"Baskervville SC";
+}
+article{
+     width: 30%;
+     float: left;
+     padding: 10px;
+     font-family:"Baskervville SC";
+}
+footer{
+     display: block;
+     clear: both;
+     background-color: maroon;
+     text-align: center;
+     padding: 50px;
+     height: 150px;
+     width: 100%;
+     color: white;
+     font-size: 1rem;
+     font-family:"Baskervville SC";
+}
+
+

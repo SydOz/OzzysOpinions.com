@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     <img src="shrek.webp">
+     <style>
+          img{
+     align-content: center;
+     animation-name: slideLeft;
+     animation-duration: 3s;
+     animation-iteration-count: 1;
+     animation-direction: alternate;
+     animation-play-state: paused;
+     animation-timing-function: ease-in-out;
+}
+@keyframes slideLeft{
+     from{transform: translateX(100%)}
+}
+@keyframes slideRight{
+     to{transform: translateX(100%)}
+}
+@keyframes slideUp{
+     from{transform: translateY(100%)}
+}
+@keyframes slideDown{
+     to{transform: translateY(100%)}
+}
+@keyframes rotate{
+     50%{transform: rotateZ(360deg)}
+}
+@keyframes grow{
+     100%{transform: scale(2, 2)}
+}
+@keyframes shrink{
+     50%{transform: scale(0.5, 0.5)}
+}
+@keyframes fadeIn{
+     100%{opacity: 1}
+}
+@keyframes colorChange{
+     0%{background-color: red;}
+     25%{background-color: maroon;}
+     50%{background-color: gray;}
+     75%{background-color: darkslategrey;}
+     100%{background-color: black;}
+}
+@keyframes glow{
+     50%{box-shadow: 0px 0px 50px red;}
+}
+@media screen and(max-width: 600px){
+     aside, section, article{
+          width: 100%;
+     }
+}
+     </style>
+</body>
+</html>
