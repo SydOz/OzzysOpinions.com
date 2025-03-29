@@ -21,7 +21,7 @@ header{
      text-align: center;
      background-color: maroon;
      color: white;
-     padding: 10px 70px;
+     padding: 10px;
      font-family:"Baskervville SC";
 }
 h1{
@@ -62,7 +62,7 @@ li{
 .navbar a{
      color: white;
      text-decoration: none;
-     padding: 10px;
+     padding: 10px 70px;
      display: block;
      text-align: center;
      font-family:"Baskervville SC";
